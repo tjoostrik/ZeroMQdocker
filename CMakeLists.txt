@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 2.6)
 
 project(zeroMQ)
 
-add_executable(zeroMQ srcELF64X86_64/zeroMQ.cpp)
+add_executable(zeroMQ srcLib/srcELF64X86_64/zeroMQ.cpp)
 
 include_directories(srcLib/LinuxX86_64)
 include_directories(srcHeaders)
