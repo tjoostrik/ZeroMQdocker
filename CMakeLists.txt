@@ -4,7 +4,7 @@ project(zeroMQ)
 
 add_executable(zeroMQ srcProgram/zeroMQ.cpp)
 
-include_directories(srcLib/srcELF64X86_64)
+include_directories(srcLib)
 include_directories(srcHeaders)
 
 target_link_libraries(zeroMQ zmq)
