@@ -20,7 +20,7 @@ docker buildx build --platform linux/amd64 .
 ```
 To use the image you can look at the conf file
 
-You can edit the conf file and add it to the docker using -v path/to/conf/file:/Configfile/
+You can edit the conf file and add it to the docker using -v path/to/conf/file/:/Configfile/
 
 example for subsciber: docker run f9afefa6acca -v /home/user/Download/zeromqdockerplcnext/Configfile/:/Configfile/
 
