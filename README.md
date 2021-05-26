@@ -24,5 +24,4 @@ You can edit the conf file and add it to the docker using -v path/to/conf/file:/
 
 example for subsciber: docker run f9afefa6acca -v /home/user/Download/zeromqdockerplcnext/Configfile/:/Configfile/
 
-
 example for publisher: docker run -it f9afefa6acca -v /home/user/Download/zeromqdockerplcnext/Configfile/:/Configfile/
