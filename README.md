@@ -22,8 +22,8 @@ To use the image you can look at the conf file
 
 You can edit the conf file and add it to the docker using -v path/to/conf/file/:/Configfile/
 
-example for subsciber: docker run f9afefa6acca -v /home/user/Download/zeromqdockerplcnext/Configfile/:/Configfile/
+example for subsciber: docker run -v /home/user/Download/zeromqdockerplcnext/Configfile/:/Configfile/ f9afefa6acca
 
-example for publisher: docker run -it f9afefa6acca -v /home/user/Download/zeromqdockerplcnext/Configfile/:/Configfile/
+example for publisher: docker run -it -v /home/user/Download/zeromqdockerplcnext/Configfile/:/Configfile/ f9afefa6acca
 
 You put -it in the command so you can type the messages that you want to send otherwise it is sending nothing the whole time.
